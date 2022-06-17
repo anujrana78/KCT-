@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterStudent">
+
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="CREATE ACCOUNT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/custominput"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextSymbol"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextFullName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custominput"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Symbol No."
+        android:inputType="textPersonName" />
+
+
+    <Spinner
+        android:id="@+id/spinnerSemester"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextSymbol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custominput"
+        android:textAlignment="center" />
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonRegisterUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerFaculty"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinnerSemester"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custominput"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerBatch"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinnerFaculty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custominput"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonRegisterUser"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinnerBatch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/custom_button"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Register" />
+
+
+</RelativeLayout>

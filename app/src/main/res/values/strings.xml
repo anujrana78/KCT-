@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KCT</string>
+    <string-array name="faculty_array">
+        <item>BCA</item>
+        <item>CSIT</item>
+    </string-array>
+
+    <string-array name="batch_array">
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+    </string-array>
+
+    <string-array name="semester_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+
+</resources>

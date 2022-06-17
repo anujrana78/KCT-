@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/mainbg">
+
+
+    <EditText
+        android:id="@+id/editTextStudentUsername"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/custominput"
+        android:drawableStart="@drawable/emaill24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextStudentPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextStudentUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custominput"
+        android:drawableStart="@drawable/passwordicon"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonStudentLogin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextStudentPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStudentLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Admin Login"
+        />
+
+
+</RelativeLayout>
